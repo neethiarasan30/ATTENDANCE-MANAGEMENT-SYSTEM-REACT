@@ -1,0 +1,199 @@
+/* EmployeeDashboard.css */
+
+/* General styling for the dashboard */
+.employee-dashboard {
+    font-family: 'Arial', sans-serif;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+}
+
+/* Header styling */
+.employee-dashboard h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Details container styling */
+.details-container {
+    margin-bottom: 20px;
+}
+
+.details-container table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 10px;
+}
+
+.details-container td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.details-container th {
+    text-align: left;
+    padding: 10px;
+    background-color: #f0f0f0;
+}
+
+.details-container button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.details-container button:hover {
+    background-color: #0056b3;
+}
+
+/* Styling for the payslip section */
+.payslip-container {
+    margin-top: 20px;
+}
+
+.payslip-container button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #28a745;
+    color: #fff;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.payslip-container button:hover {
+    background-color: #218838;
+}
+
+.payslip-container .message {
+    margin-top: 10px;
+    color: #28a745;
+    font-size: 14px;
+}
+
+/* Styling for the leave form section */
+.leave-form-container {
+    margin-top: 20px;
+}
+
+.leave-form-container button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ffc107;
+    color: #fff;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.leave-form-container button:hover {
+    background-color: #e0a800;
+}
+
+.leave-form-container form {
+    margin-top: 10px;
+}
+
+.leave-form-container label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.leave-form-container input,
+.leave-form-container select {
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.leave-form-container button[type="submit"] {
+    background-color: #007bff;
+}
+
+.leave-form-container button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+.leave-form-container .message {
+    margin-top: 10px;
+    color: #dc3545;
+    font-size: 14px;
+}
+
+/* Styling for the leave requests section */
+.leave-requests-container {
+    margin-top: 20px;
+}
+
+.leave-requests-container button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #17a2b8;
+    color: #fff;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.leave-requests-container button:hover {
+    background-color: #138496;
+}
+
+.leave-requests-container ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px 0;
+}
+
+.leave-requests-container li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    font-size: 14px;
+}
+
+/* Styling for the leave balance section */
+.leave-balance-container {
+    margin-top: 20px;
+}
+
+.leave-balance-container button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #17a2b8;
+    color: #fff;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.leave-balance-container button:hover {
+    background-color: #138496;
+}
+
+.leave-balance-container table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.leave-balance-container td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    font-size: 14px;
+}
+
+.leave-balance-container th {
+    text-align: left;
+    padding: 10px;
+    background-color: #f0f0f0;
+    font-size: 14px;
+}

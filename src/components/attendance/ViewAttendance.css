@@ -1,0 +1,79 @@
+/* General styling for the view attendance page */
+.view-attendance {
+    font-family: 'Arial', sans-serif;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+}
+
+/* Header styling */
+.view-attendance h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Form styling */
+.view-attendance div {
+    margin-bottom: 20px;
+}
+
+.view-attendance label {
+    margin-right: 10px;
+    font-size: 14px;
+    color: #333;
+}
+
+.view-attendance input[type="date"] {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+.view-attendance button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.view-attendance button:hover {
+    background-color: #0056b3;
+}
+
+/* Table styling */
+.view-attendance table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.view-attendance th, .view-attendance td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.view-attendance th {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.view-attendance tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.view-attendance tr:hover {
+    background-color: #e9ecef;
+}
+
+/* Error message styling */
+.view-attendance p {
+    color: #dc3545;
+    font-size: 14px;
+}

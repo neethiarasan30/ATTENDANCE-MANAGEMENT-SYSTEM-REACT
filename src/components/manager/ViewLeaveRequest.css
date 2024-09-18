@@ -1,0 +1,71 @@
+.view-leave-requests-container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.view-leave-requests-container h2 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    color: #0072ff;
+    font-family: 'Arial', sans-serif;
+}
+
+.view-leave-requests-container table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.view-leave-requests-container th, .view-leave-requests-container td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+.view-leave-requests-container th {
+    background-color: #0072ff;
+    color: #fff;
+    font-size: 1rem;
+}
+
+.view-leave-requests-container td {
+    font-size: 0.9rem;
+}
+
+.view-leave-requests-container tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.view-leave-requests-container tr:hover {
+    background-color: #e0e0e0;
+}
+
+.view-leave-requests-container button {
+    background-color: #0072ff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 6px 12px;
+    font-size: 0.9rem;
+    font-weight: bold;
+    cursor: pointer;
+    margin-right: 5px;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.view-leave-requests-container button:hover {
+    background-color: #005bb5;
+}
+
+.view-leave-requests-container button:active {
+    transform: scale(0.98);
+}
+
+.view-leave-requests-container p {
+    font-size: 1rem;
+    color: #f44336;
+}

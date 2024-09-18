@@ -1,0 +1,120 @@
+/* src/components/ManagerDashboard.css */
+
+.manager-dashboard {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.manager-dashboard h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #0072ff;
+    font-family: 'Arial', sans-serif;
+}
+
+.manager-dashboard h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    color: #0072ff;
+}
+
+.manager-dashboard .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    text-decoration: none;
+    color: #fff;
+    border: none;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.manager-dashboard .btn-primary {
+    background-color: #0072ff;
+}
+
+.manager-dashboard .btn-primary:hover {
+    background-color: #005bb5;
+}
+
+.manager-dashboard .btn-secondary {
+    background-color: #6c757d;
+}
+
+.manager-dashboard .btn-secondary:hover {
+    background-color: #5a6268;
+}
+
+.manager-dashboard .btn-info {
+    background-color: #17a2b8;
+}
+
+.manager-dashboard .btn-info:hover {
+    background-color: #138496;
+}
+
+.manager-dashboard .btn-success {
+    background-color: #28a745;
+}
+
+.manager-dashboard .btn-success:hover {
+    background-color: #218838;
+}
+
+.manager-dashboard form {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin-top: 20px;
+}
+
+.manager-dashboard label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.manager-dashboard input {
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.manager-dashboard button {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.manager-dashboard button:hover {
+    background-color: #218838;
+}
+
+.manager-dashboard button:active {
+    transform: scale(0.98);
+}
+
+.manager-dashboard p {
+    margin-top: 20px;
+    font-size: 1rem;
+}
+
+.manager-dashboard p.error {
+    color: #f44336;
+}

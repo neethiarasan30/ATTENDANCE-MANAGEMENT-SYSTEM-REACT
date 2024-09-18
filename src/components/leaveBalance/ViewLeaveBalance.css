@@ -1,0 +1,63 @@
+.view-leave-balance-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.view-leave-balance-container h2 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    color: #0072ff;
+    font-family: 'Arial', sans-serif;
+}
+
+.view-leave-balance-container div {
+    margin-bottom: 15px;
+}
+
+.view-leave-balance-container label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.view-leave-balance-container input {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.view-leave-balance-container button {
+    background-color: #0072ff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.view-leave-balance-container button:hover {
+    background-color: #005bb5;
+}
+
+.view-leave-balance-container button:active {
+    transform: scale(0.98);
+}
+
+.view-leave-balance-container p {
+    font-size: 1rem;
+    margin-top: 20px;
+}
+
+.view-leave-balance-container p.error {
+    color: #f44336;
+}

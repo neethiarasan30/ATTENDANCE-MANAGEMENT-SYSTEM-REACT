@@ -1,0 +1,59 @@
+/* src/components/EmployeeForm.css */
+
+.employee-form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.employee-form h2 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    color: #0072ff;
+    font-family: 'Arial', sans-serif;
+}
+
+.employee-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.employee-form input {
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.employee-form button {
+    background-color: #0072ff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    margin-right: 10px;
+}
+
+.employee-form button:hover {
+    background-color: #005bb5;
+}
+
+.employee-form button:active {
+    transform: scale(0.98);
+}
+
+.employee-form .cancel-button {
+    background-color: #f44336;
+}
+
+.employee-form .cancel-button:hover {
+    background-color: #da190b;
+}

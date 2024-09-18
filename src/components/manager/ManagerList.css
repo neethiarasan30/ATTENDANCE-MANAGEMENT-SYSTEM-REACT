@@ -1,0 +1,125 @@
+/* src/components/ManagerList.css */
+
+/* Container for the form and list to ensure proper layout */
+.manager-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Form styling */
+.manager-form-container {
+    margin-bottom: 30px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.manager-form-container h2 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    color: #0072ff;
+    font-family: 'Arial', sans-serif;
+}
+
+.manager-form-container label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.manager-form-container input {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+.manager-form-container button {
+    background-color: #0072ff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.manager-form-container button:hover {
+    background-color: #005bb5;
+}
+
+.manager-form-container button:active {
+    transform: scale(0.98);
+}
+
+/* Manager list styling */
+.manager-list-container h2 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    color: #0072ff;
+    font-family: 'Arial', sans-serif;
+}
+
+.manager-list-container ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.manager-list-container li {
+    padding: 15px;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.manager-list-container .button-container {
+    display: flex;
+}
+
+.manager-list-container .edit-button,
+.manager-list-container .delete-button {
+    background-color: #0072ff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 15px;
+    font-size: 0.9rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    margin-right: 10px;
+}
+
+.manager-list-container .edit-button:hover {
+    background-color: #005bb5;
+}
+
+.manager-list-container .edit-button:active {
+    transform: scale(0.98);
+}
+
+.manager-list-container .delete-button {
+    background-color: #f44336;
+}
+
+.manager-list-container .delete-button:hover {
+    background-color: #da190b;
+}
+
+.manager-list-container .delete-button:active {
+    transform: scale(0.98);
+}

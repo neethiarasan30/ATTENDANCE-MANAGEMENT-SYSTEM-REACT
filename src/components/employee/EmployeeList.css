@@ -1,0 +1,87 @@
+/* src/components/EmployeeList.css */
+
+.employee-list {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.employee-list h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #0072ff;
+    font-family: 'Arial', sans-serif;
+}
+
+.employee-list .add-button {
+    background-color: #0072ff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    margin-bottom: 20px;
+}
+
+.employee-list .add-button:hover {
+    background-color: #005bb5;
+}
+
+.employee-list .add-button:active {
+    transform: scale(0.98);
+}
+
+.employee-list table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.employee-list th, .employee-list td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.employee-list th {
+    background-color: #0072ff;
+    color: #fff;
+}
+
+.employee-list tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.employee-list button {
+    background-color: #0072ff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 0.9rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    margin-right: 5px;
+}
+
+.employee-list button:hover {
+    background-color: #005bb5;
+}
+
+.employee-list button:active {
+    transform: scale(0.98);
+}
+
+.employee-list .delete-button {
+    background-color: #f44336;
+}
+
+.employee-list .delete-button:hover {
+    background-color: #da190b;
+}

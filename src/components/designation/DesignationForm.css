@@ -1,0 +1,56 @@
+/* src/components/DesignationForm.css */
+.designation-form-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.designation-form-container h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #0072ff;
+    font-family: 'Arial', sans-serif;
+}
+
+.designation-form-container label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.designation-form-container input {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+.designation-form-container input[readonly] {
+    background-color: #f9f9f9;
+}
+
+.designation-form-container button {
+    background-color: #0072ff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 15px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.designation-form-container button:hover {
+    background-color: #005bb5;
+}
+
+.designation-form-container button:active {
+    transform: scale(0.98);
+}

@@ -1,0 +1,62 @@
+/* Attendance.css */
+
+/* General styling for the attendance page */
+.attendance {
+    font-family: 'Arial', sans-serif;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+}
+
+/* Header styling */
+.attendance h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Button styling */
+.attendance button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    font-size: 14px;
+    margin-right: 10px;
+}
+
+.attendance button:hover {
+    background-color: #0056b3;
+}
+
+.attendance .btn-secondary {
+    background-color: #6c757d;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 14px;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+.attendance .btn-secondary:hover {
+    background-color: #5a6268;
+}
+
+/* Message styling */
+.attendance p {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.attendance .message {
+    color: #28a745; /* Green for success messages */
+}
+
+.attendance .error {
+    color: #dc3545; /* Red for error messages */
+}

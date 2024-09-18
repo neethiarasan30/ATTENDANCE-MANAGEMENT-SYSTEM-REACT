@@ -1,0 +1,49 @@
+/* src/styles/OpeningPage.css */
+.opening-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(to right, #00c6ff, #0072ff);
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.opening-page h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    font-family: 'Arial', sans-serif;
+    letter-spacing: 2px;
+}
+
+.opening-page p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    font-family: 'Arial', sans-serif;
+    line-height: 1.5;
+}
+
+.login-button {
+    background-color: #fff;
+    color: #0072ff;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 30px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.login-button:hover {
+    background-color: #0072ff;
+    color: #fff;
+}
+
+.login-button:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(0, 114, 255, 0.5);
+}
